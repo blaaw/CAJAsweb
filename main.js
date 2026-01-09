@@ -43,6 +43,7 @@ function addToDiv() {
     divs[index].textContent = message;
 }
 document.getElementById("touch-me-maybe").addEventListener("click", addToDiv);
+
 //COLOR PT2
 function newColour() {
     let newcolor = prompt("choose a new colour to be...", "1.Orange; 2.Purple; 3.Green");
@@ -60,5 +61,10 @@ function newColour() {
         default:
             alert("No se ha podido cambiar de color");
     }
-}
+} /*idk exactly why yet, but if I try the inline onclick attribute method
+instead of an event listener it just won't change colour*/ 
+document.getElementById("paint-me1").addEventListener("click", newColour);
+document.getElementById("paint-me2").addEventListener("click", newColour);
+document.getElementById("paint-me3").addEventListener("click", newColour);
+document.getElementById("paint-me4").addEventListener("dblclick", newColour);
 
