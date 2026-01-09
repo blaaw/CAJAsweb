@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <i style="color: gray;">by Beckham I. Lawrence, 2026</i>
+    <main>
+        <h1>Dice</h1>
+        <section>
+            <div id="dado">I am</div>
+            <div id="dado2">100</div>
+        </section>
+        <button onclick="dados()">touch me</button>
+
+        <h1>Counter</h1>
+        <div id="cont"></div>
+        <button onclick="addCount()">touch me harder</button>
+
+        <h1>Colour</h1>
+        <div id="colorDiv">touch me slowly</div>
+
+        <h1 id="creation-title">Creation and Change</h1>
+        <section>
+            <button id="touch-me-more">touch me <i>more</i></button>
+            <button id="touch-me-not">touch me <i>not</i></button>
+            <button id="touch-me-maybe">touch me <i>maybe</i></button>
+        </section>
+        <section id="newdivs-section"></section>
+
+        <h1>Colour pt.2</h1>
+        <section>
+            <div onclick="newColour()">touch me</div>
+            <div onclick="newColour()">touch me</div>
+            <div onclick="newColour()">touch me</div>
+            <div ondblclick="newColour()">pick me</div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

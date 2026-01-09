@@ -1,0 +1,49 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+main {
+    padding-left: 2em;
+}
+
+h1 {
+    color: rgb(23, 38, 50);
+    width: fit-content; 
+    /*para que el width no sea todo el espacio de la pagina y haga un hover raro sin tocar el texto*/
+}
+
+div {
+    font-size: larger;
+    background-color: aqua;
+    width: 20vh;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+button {
+    border: none;
+    background-color: rgb(23, 38, 50);
+    color: aqua;
+    padding: 0.7em 2em;
+    margin-left: 1em;
+    transition: 0.2s;
+}
+
+h1:hover {
+    color: aqua;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: aqua;
+    color: rgb(23, 38, 50);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
